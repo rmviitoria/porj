@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Molengo&display=swap');
+
+body{
+    font-family: 'Molengo', sans-serif;
+    background-color: white;
+    text-align: center;
+    background-color: #542638;  
+}
+
+h1{
+    margin-top: 3%;
+}
+
+.button{
+    text-decoration: white;
+    background-color: #c9306b;
+    margin-top: 20PX;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 160px;
+    height: 40px;
+    width: 160px;
+    border: #c9306b;
+    text-align: center;
+    box-shadow: 4px 5px 4px rgna(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow,transform;
+
+    -webkit-transform: scale(1.1);
+
+
+}
+
+.button:hover{
+    background-color: #4dab8c;
+    transition-duration: 0.3s;
+    -webkit-transform: scale(1.1);
+    box-shadow:2px 5px 5px grey;
+    height: 45px;
+    width: 165px;
+}
+
+.botao{
+    padding: 50px;
+    width: 500px;
+    height: 200px;
+    border: transparent;
+
+    margin-top: -3%;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+
+table{
+    margin-top: 10px;
+    width: 70%;
+    height: 270px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 2px dashed black;
+    background-color: #2b9eb3;
+    border-radius: 12px;
+}

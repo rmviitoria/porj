@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Molengo&display=swap');
+
+body{
+    font-family: 'Molengo', sans-serif;
+    background-color: white;
+    text-align: center;
+    background-color: #542638;
+}
+
+form{
+    background-color: #e86f9e;
+    height: 300px;
+    margin-top: 10%;
+    width: 300px;
+    margin-left: 37%;
+    margin-right: 37%;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px rgb(32, 32, 32);
+}
+
+.botao{
+    background-color: #c9306b;
+    border-radius: 10px;
+    border: #c9306b;
+    height: 40px;
+    width: 160px;
+    color: black;
+    transition-duration: 0.3s;
+    -webkit-transform: scale(1.1);
+
+}
+
+.botao:hover{
+    background-color: #4dab8c;
+    transition-duration: 0.3s;
+    -webkit-transform: scale(1.1);
+    box-shadow: 2px 5px 5px rgb(78, 78, 78);
+    height: 45px;
+    width: 165px;
+}
